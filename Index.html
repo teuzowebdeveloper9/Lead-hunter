@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Leads</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #0073e6;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"], select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .checkbox-group {
+            margin-bottom: 10px;
+        }
+
+        .checkbox-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .checkbox-group input {
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de Leads</h1>
+        <form>
+            <label for="nicho">Escolha o Nicho:</label>
+            <input type="text" id="nicho" name="nicho">
+
+            <div class="checkbox-group">
+                <label>Escolha as Plataformas:</label>
+                <label><input type="checkbox" id="linkedin" name="plataformas" value="LinkedIn"> LinkedIn</label>
+                <label><input type="checkbox" id="facebook" name="plataformas" value="Facebook"> Facebook</label>
+                <label><input type="checkbox" id="twitter" name="plataformas" value="Twitter"> Twitter</label>
+                <label><input type="checkbox" id="whatsapp" name="plataformas" value="WhatsApp"> WhatsApp</label>
+            </div>
+
+            <button type="button" onclick="atualizarDados()">Atualizar Dados</button>
+            <button type="button" onclick="salvarPlanilha()">Salvar Planilha</button>
+        </form>
+    </div>
+    <script>
+        function atualizarDados() {
+            // Função para atualizar dados
+            alert("Dados atualizados!");
+        }
+
+        function salvarPlanilha() {
+            // Função para salvar planilha
+            alert("Planilha salva!");
+        }
+    </script>
+</body>
+</html>
