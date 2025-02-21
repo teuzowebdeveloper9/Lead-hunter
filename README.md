@@ -44,4 +44,6 @@ To make the collected data visually accessible, I created a Python script that g
 Acknowledgments
 
 Thank you for reading this explanation! I hope this information proves helpful to you. Wishing you all the best and great success in your lead generation journey! 🚀
+![Capturar](https://github.com/user-attachments/assets/6877c8f7-23d2-4196-85a7-ee66905ac38b)
+
 
