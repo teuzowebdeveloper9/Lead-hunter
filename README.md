@@ -45,6 +45,6 @@ Acknowledgments
 
 Thank you for reading this explanation! I hope this information proves helpful to you. Wishing you all the best and great success in your lead generation journey! 🚀
 ![Capturar](https://github.com/user-attachments/assets/6877c8f7-23d2-4196-85a7-ee66905ac38b)
-![Capturar](https://github.com/user-attachments/assets/c952ca7c-837d-4154-9a89-23f45c49373d)
+![Capturar2](https://github.com/user-attachments/assets/30b751df-9568-4ef1-8b36-6b07e2d06068)
 
 
